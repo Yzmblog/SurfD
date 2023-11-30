@@ -27,4 +27,3 @@ Given single-view images of objects, Surf-D can produce high-quality results fai
 <img src="./assets/fig_text2shape.png">
 Give the text description of objects, Surf-D produces high-quality results aligned with input texts.
 
-
