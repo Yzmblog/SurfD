@@ -23,7 +23,7 @@ Create and activate a virtual environment.
     python3 setup.py build_ext --inplace
 
 ## Download pretrained models
-Download our pretrained models at [google drive](https://drive.google.com/drive/folders/19Wdbg-zOB48IZ3KSxayRK3q1v1HfWRUP?usp=sharing)
+Download our pretrained models at [google drive](https://drive.google.com/drive/folders/19Wdbg-zOB48IZ3KSxayRK3q1v1HfWRUP?usp=sharing).
 
 ## Generate from Diffusion:
 Unconditional generation:
@@ -91,7 +91,7 @@ cd AutoEncoder/encdc
 
 ## Acknowledgement
 
-Our code took reference from [MDM](https://github.com/GuyTevet/motion-diffusion-model), [SDFusion](https://github.com/yccyenchicheng/SDFusion), [DrapeNet](https://github.com/liren2515/DrapeNet), [Stable Diffusion](https://github.com/CompVis/stable-diffusion). We thank these authors for their great works and open-source contribution.
+Our code took reference from [MDM](https://github.com/GuyTevet/motion-diffusion-model), [SDFusion](https://github.com/yccyenchicheng/SDFusion), [DrapeNet](https://github.com/liren2515/DrapeNet), [MeshUDF](https://github.com/cvlab-epfl/MeshUDF), [Stable Diffusion](https://github.com/CompVis/stable-diffusion). We thank these authors for their great works and open-source contribution.
 
 <a name="citation"></a>
 ## Citation
