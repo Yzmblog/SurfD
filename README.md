@@ -88,3 +88,16 @@ cd AutoEncoder/encdc
 ## Diffusion Training:
 
     python train_diffcloth.py --cond_mode no_cond --save_dir xxx --overwrite --data_dir xxx --ae_dir xxx --log_interval 25 --save_interval 10000 --dataset deepfashion3d
+
+<a name="citation"></a>
+## Citation
+If you find this work useful for your research, please consider citing our paper: 
+
+```bibtex
+@article{yu2023surf,
+  title={Surf-D: High-Quality Surface Generation for Arbitrary Topologies using Diffusion Models},
+  author={Yu, Zhengming and Dou, Zhiyang and Long, Xiaoxiao and Lin, Cheng and Li, Zekun and Liu, Yuan and M{\"u}ller, Norman and Komura, Taku and Habermann, Marc and Theobalt, Christian and others},
+  journal={arXiv preprint arXiv:2311.17050},
+  year={2023}
+}
+```
