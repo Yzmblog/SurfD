@@ -89,6 +89,10 @@ cd AutoEncoder/encdc
 
     python train_diffcloth.py --cond_mode no_cond --save_dir xxx --overwrite --data_dir xxx --ae_dir xxx --log_interval 25 --save_interval 10000 --dataset deepfashion3d
 
+## Acknowledgement
+
+Our code took reference from [MDM](https://github.com/GuyTevet/motion-diffusion-model), [SDFusion](https://github.com/yccyenchicheng/SDFusion), [DrapeNet](https://github.com/liren2515/DrapeNet), [Stable Diffusion](https://github.com/CompVis/stable-diffusion). We thank these authors for their great works and open-source contribution.
+
 <a name="citation"></a>
 ## Citation
 If you find this work useful for your research, please consider citing our paper: 
