@@ -1,0 +1,27 @@
+dset:
+  train_ids_file: none
+  test_ids_file: none
+  root: ./Dataset/pix3d/udfs
+  split: "train"
+  name: "pix3d"
+  exp_name: "pix3d"
+
+num_points_pcd: 10_000
+udf_max_dist: 0.1
+latent_size: 64
+num_points_forward: 20_000
+
+decoder:
+  hidden_dim: 512
+  num_hidden_layers: 5
+
+train_bs: 2
+val_bs: 8
+lr: 1e-4
+num_epochs: 20000
+
+watertight: False
+resolution: 512
+
+log_dir: ./outputs/pix3d
+

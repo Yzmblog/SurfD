@@ -1,0 +1,27 @@
+dset:
+  train_ids_file: none
+  test_ids_file: none
+  root: ./dataset/ShapeNet/udfs
+  name: text2shape
+  split: train
+  exp_name: text2shape
+
+num_points_pcd: 10_000
+udf_max_dist: 0.1
+latent_size: 64
+num_points_forward: 20_000
+
+decoder:
+  hidden_dim: 512
+  num_hidden_layers: 5
+
+
+train_bs: 6
+val_bs: 8
+lr: 1e-4
+num_epochs: 10000
+
+watertight: True
+resolution: 512
+
+log_dir: ./outputs/shapenet
