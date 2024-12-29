@@ -107,3 +107,14 @@ If you find this work useful for your research, please consider citing our paper
   year={2023}
 }
 ```
+or
+```bibtex
+@inproceedings{yu2025surf,
+  title={Surf-D: Generating High-Quality Surfaces of Arbitrary Topologies Using Diffusion Models},
+  author={Yu, Zhengming and Dou, Zhiyang and Long, Xiaoxiao and Lin, Cheng and Li, Zekun and Liu, Yuan and M{\"u}ller, Norman and Komura, Taku and Habermann, Marc and Theobalt, Christian and others},
+  booktitle={European Conference on Computer Vision},
+  pages={419--438},
+  year={2025},
+  organization={Springer}
+}
+```
