@@ -11,8 +11,8 @@ from utils.model_util import create_model_and_diffusion, load_model_wo_clip
 from utils import dist_util
 from models.cfg_sampler import ClassifierFreeSampleModel
 
-from models.AutoEncoder.coordsenc import CoordsEncoder
-from models.AutoEncoder.cbndec import CbnDecoder
+from AutoEncoder.models.coordsenc import CoordsEncoder
+from AutoEncoder.models.cbndec import CbnDecoder
 from meshudf.meshudf import get_mesh_from_udf
 from utils.utils import get_o3d_mesh_from_tensors
 from data_loaders.dataset import mask2bbox, crop_square, _convert_image_to_rgb, _transform_rgb

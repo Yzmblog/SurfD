@@ -26,6 +26,8 @@ Create and activate a virtual environment.
 Download our pretrained models at [google drive](https://drive.google.com/drive/folders/19Wdbg-zOB48IZ3KSxayRK3q1v1HfWRUP?usp=sharing).
 
 ## Generate from Diffusion:
+### Extract a 512 resolution mesh will take some time, if you want to get a mesh quickly, feel free to modify the following command to --resolution 256
+
 Unconditional generation:
 
     python -m sample.generate_uncond \
@@ -53,8 +55,8 @@ Image conditional generation:
         --output_dir ./outputs/image_cond/ \
         --cond_mode img \
         --ae_dir pretrained_models/ae_pix3d.pt \
-        --image_path demo_images/image.jpg \
-        --mask_path demo_images/mask.jpg \
+        --image_path demo_images/0049.jpg \
+        --mask_path demo_images/0049.png \
         --resolution 512
 
 Text conditional generation:
